@@ -4,7 +4,7 @@ tf-models-official==2.3.0
 # tensorflow-hub is to load Hub model. Specific version is required by TFJS.
 tensorflow-hub>=0.7.0,<0.10; python_version < "3"
 tensorflow-hub>=0.7.0,<0.13; python_version >= "3"
-numpy>=1.17.3,<1.23.4
+numpy>=1.22.2,<1.23.4
 pillow>=7.0.0
 sentencepiece>=0.1.91
 tensorflow-datasets>=2.1.0
@@ -29,3 +29,8 @@ tensorflow-model-optimization>=0.5
 Cython>=0.29.13
 scann==1.2.6
 tensorflowjs>=2.4.0,<3.19.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+grpcio>=1.53.2 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+scipy>=1.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
