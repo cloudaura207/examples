@@ -11,7 +11,7 @@ tensorflow-datasets>=2.1.0
 fire>=0.3.1
 flatbuffers>=2.0
 absl-py>=0.10.0
-urllib3!=1.26.18,!=1.25.1,<1.26,>=1.21.1
+urllib3!=1.26.19,!=1.25.1,<1.26,>=1.21.1
 tflite-support>=0.4.2
 tensorflow>=2.12.0rc1
 # b/196287362: This Numba + Librosa combination works for numpy 1.19, introduced
@@ -33,3 +33,5 @@ keras>=2.13.1rc0 # not directly required, pinned by Snyk to avoid a vulnerabilit
 setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
 werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
 wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+scikit-learn>=1.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
